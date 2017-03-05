@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5A017961E6B79380009C5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A017951E6B79380009C5DA /* AppDelegate.swift */; };
+		C5A017981E6B79380009C5DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A017971E6B79380009C5DA /* ViewController.swift */; };
+		C5A0179B1E6B79380009C5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A017991E6B79380009C5DA /* Main.storyboard */; };
+		C5A0179D1E6B79380009C5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A0179C1E6B79380009C5DA /* Assets.xcassets */; };
+		C5A017A01E6B79380009C5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A0179E1E6B79380009C5DA /* LaunchScreen.storyboard */; };
+		C5A017AB1E6B79380009C5DA /* CalPolyMealPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A017AA1E6B79380009C5DA /* CalPolyMealPlanTests.swift */; };
+		C5A017B61E6B79380009C5DA /* CalPolyMealPlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A017B51E6B79380009C5DA /* CalPolyMealPlanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5A017A71E6B79380009C5DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A0178A1E6B79370009C5DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A017911E6B79380009C5DA;
+			remoteInfo = CalPolyMealPlan;
+		};
+		C5A017B21E6B79380009C5DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A0178A1E6B79370009C5DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A017911E6B79380009C5DA;
+			remoteInfo = CalPolyMealPlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5A017921E6B79380009C5DA /* CalPolyMealPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalPolyMealPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A017951E6B79380009C5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5A017971E6B79380009C5DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5A0179A1E6B79380009C5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5A0179C1E6B79380009C5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5A0179F1E6B79380009C5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5A017A11E6B79380009C5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A017A61E6B79380009C5DA /* CalPolyMealPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalPolyMealPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A017AA1E6B79380009C5DA /* CalPolyMealPlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalPolyMealPlanTests.swift; sourceTree = "<group>"; };
+		C5A017AC1E6B79380009C5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A017B11E6B79380009C5DA /* CalPolyMealPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalPolyMealPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A017B51E6B79380009C5DA /* CalPolyMealPlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalPolyMealPlanUITests.swift; sourceTree = "<group>"; };
+		C5A017B71E6B79380009C5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5A0178F1E6B79380009C5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A017A31E6B79380009C5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A017AE1E6B79380009C5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5A017891E6B79370009C5DA = {
+			isa = PBXGroup;
+			children = (
+				C5A017941E6B79380009C5DA /* CalPolyMealPlan */,
+				C5A017A91E6B79380009C5DA /* CalPolyMealPlanTests */,
+				C5A017B41E6B79380009C5DA /* CalPolyMealPlanUITests */,
+				C5A017931E6B79380009C5DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5A017931E6B79380009C5DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5A017921E6B79380009C5DA /* CalPolyMealPlan.app */,
+				C5A017A61E6B79380009C5DA /* CalPolyMealPlanTests.xctest */,
+				C5A017B11E6B79380009C5DA /* CalPolyMealPlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5A017941E6B79380009C5DA /* CalPolyMealPlan */ = {
+			isa = PBXGroup;
+			children = (
+				C5A017951E6B79380009C5DA /* AppDelegate.swift */,
+				C5A017971E6B79380009C5DA /* ViewController.swift */,
+				C5A017991E6B79380009C5DA /* Main.storyboard */,
+				C5A0179C1E6B79380009C5DA /* Assets.xcassets */,
+				C5A0179E1E6B79380009C5DA /* LaunchScreen.storyboard */,
+				C5A017A11E6B79380009C5DA /* Info.plist */,
+			);
+			path = CalPolyMealPlan;
+			sourceTree = "<group>";
+		};
+		C5A017A91E6B79380009C5DA /* CalPolyMealPlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A017AA1E6B79380009C5DA /* CalPolyMealPlanTests.swift */,
+				C5A017AC1E6B79380009C5DA /* Info.plist */,
+			);
+			path = CalPolyMealPlanTests;
+			sourceTree = "<group>";
+		};
+		C5A017B41E6B79380009C5DA /* CalPolyMealPlanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A017B51E6B79380009C5DA /* CalPolyMealPlanUITests.swift */,
+				C5A017B71E6B79380009C5DA /* Info.plist */,
+			);
+			path = CalPolyMealPlanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5A017911E6B79380009C5DA /* CalPolyMealPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A017BA1E6B79380009C5DA /* Build configuration list for PBXNativeTarget "CalPolyMealPlan" */;
+			buildPhases = (
+				C5A0178E1E6B79380009C5DA /* Sources */,
+				C5A0178F1E6B79380009C5DA /* Frameworks */,
+				C5A017901E6B79380009C5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalPolyMealPlan;
+			productName = CalPolyMealPlan;
+			productReference = C5A017921E6B79380009C5DA /* CalPolyMealPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5A017A51E6B79380009C5DA /* CalPolyMealPlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A017BD1E6B79380009C5DA /* Build configuration list for PBXNativeTarget "CalPolyMealPlanTests" */;
+			buildPhases = (
+				C5A017A21E6B79380009C5DA /* Sources */,
+				C5A017A31E6B79380009C5DA /* Frameworks */,
+				C5A017A41E6B79380009C5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A017A81E6B79380009C5DA /* PBXTargetDependency */,
+			);
+			name = CalPolyMealPlanTests;
+			productName = CalPolyMealPlanTests;
+			productReference = C5A017A61E6B79380009C5DA /* CalPolyMealPlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5A017B01E6B79380009C5DA /* CalPolyMealPlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A017C01E6B79380009C5DA /* Build configuration list for PBXNativeTarget "CalPolyMealPlanUITests" */;
+			buildPhases = (
+				C5A017AD1E6B79380009C5DA /* Sources */,
+				C5A017AE1E6B79380009C5DA /* Frameworks */,
+				C5A017AF1E6B79380009C5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A017B31E6B79380009C5DA /* PBXTargetDependency */,
+			);
+			name = CalPolyMealPlanUITests;
+			productName = CalPolyMealPlanUITests;
+			productReference = C5A017B11E6B79380009C5DA /* CalPolyMealPlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5A0178A1E6B79370009C5DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = celestineco;
+				TargetAttributes = {
+					C5A017911E6B79380009C5DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EEY5Q9F72V;
+						ProvisioningStyle = Automatic;
+					};
+					C5A017A51E6B79380009C5DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EEY5Q9F72V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5A017911E6B79380009C5DA;
+					};
+					C5A017B01E6B79380009C5DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EEY5Q9F72V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5A017911E6B79380009C5DA;
+					};
+				};
+			};
+			buildConfigurationList = C5A0178D1E6B79370009C5DA /* Build configuration list for PBXProject "CalPolyMealPlan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5A017891E6B79370009C5DA;
+			productRefGroup = C5A017931E6B79380009C5DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5A017911E6B79380009C5DA /* CalPolyMealPlan */,
+				C5A017A51E6B79380009C5DA /* CalPolyMealPlanTests */,
+				C5A017B01E6B79380009C5DA /* CalPolyMealPlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5A017901E6B79380009C5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A017A01E6B79380009C5DA /* LaunchScreen.storyboard in Resources */,
+				C5A0179D1E6B79380009C5DA /* Assets.xcassets in Resources */,
+				C5A0179B1E6B79380009C5DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A017A41E6B79380009C5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A017AF1E6B79380009C5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5A0178E1E6B79380009C5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A017981E6B79380009C5DA /* ViewController.swift in Sources */,
+				C5A017961E6B79380009C5DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A017A21E6B79380009C5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A017AB1E6B79380009C5DA /* CalPolyMealPlanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A017AD1E6B79380009C5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A017B61E6B79380009C5DA /* CalPolyMealPlanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5A017A81E6B79380009C5DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A017911E6B79380009C5DA /* CalPolyMealPlan */;
+			targetProxy = C5A017A71E6B79380009C5DA /* PBXContainerItemProxy */;
+		};
+		C5A017B31E6B79380009C5DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A017911E6B79380009C5DA /* CalPolyMealPlan */;
+			targetProxy = C5A017B21E6B79380009C5DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5A017991E6B79380009C5DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A0179A1E6B79380009C5DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5A0179E1E6B79380009C5DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A0179F1E6B79380009C5DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5A017B81E6B79380009C5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5A017B91E6B79380009C5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5A017BB1E6B79380009C5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EEY5Q9F72V;
+				INFOPLIST_FILE = CalPolyMealPlan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = celestineco.CalPolyMealPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C5A017BC1E6B79380009C5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EEY5Q9F72V;
+				INFOPLIST_FILE = CalPolyMealPlan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = celestineco.CalPolyMealPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C5A017BE1E6B79380009C5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EEY5Q9F72V;
+				INFOPLIST_FILE = CalPolyMealPlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = celestineco.CalPolyMealPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalPolyMealPlan.app/CalPolyMealPlan";
+			};
+			name = Debug;
+		};
+		C5A017BF1E6B79380009C5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EEY5Q9F72V;
+				INFOPLIST_FILE = CalPolyMealPlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = celestineco.CalPolyMealPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalPolyMealPlan.app/CalPolyMealPlan";
+			};
+			name = Release;
+		};
+		C5A017C11E6B79380009C5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EEY5Q9F72V;
+				INFOPLIST_FILE = CalPolyMealPlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = celestineco.CalPolyMealPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CalPolyMealPlan;
+			};
+			name = Debug;
+		};
+		C5A017C21E6B79380009C5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EEY5Q9F72V;
+				INFOPLIST_FILE = CalPolyMealPlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = celestineco.CalPolyMealPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CalPolyMealPlan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5A0178D1E6B79370009C5DA /* Build configuration list for PBXProject "CalPolyMealPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A017B81E6B79380009C5DA /* Debug */,
+				C5A017B91E6B79380009C5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A017BA1E6B79380009C5DA /* Build configuration list for PBXNativeTarget "CalPolyMealPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A017BB1E6B79380009C5DA /* Debug */,
+				C5A017BC1E6B79380009C5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5A017BD1E6B79380009C5DA /* Build configuration list for PBXNativeTarget "CalPolyMealPlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A017BE1E6B79380009C5DA /* Debug */,
+				C5A017BF1E6B79380009C5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5A017C01E6B79380009C5DA /* Build configuration list for PBXNativeTarget "CalPolyMealPlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A017C11E6B79380009C5DA /* Debug */,
+				C5A017C21E6B79380009C5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5A0178A1E6B79370009C5DA /* Project object */;
+}
